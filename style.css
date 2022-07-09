@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #373737!important;
+    color: #373737;
 }
 
 .container {
@@ -823,6 +823,20 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+
+.text-image-replacer :last-child
+{
+    font-size: large;
+    color: grey
+}
+
+.text-image-replacer :first-child
+{
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(82, 82, 82);
 }
 
 @media (max-width: 1024px) {

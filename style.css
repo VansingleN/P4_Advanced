@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -822,14 +822,19 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
-
 
 .text-image-replacer :last-child
 {
     font-size: large;
-    color: grey
+    color: #797676
+}
+
+li, li a
+{
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .text-image-replacer :first-child
